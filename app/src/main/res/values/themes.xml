@@ -1,0 +1,11 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.S02_crud_joseVasquez" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <item name="colorPrimary">@color/uns</item>
+        <item name="colorPrimaryVariant">@color/uns</item>
+        <item name="android:statusBarColor">@color/uns</item>
+    </style>
+
+    <style name="Theme.S02_crud_joseVasquez" parent="Base.Theme.S02_crud_joseVasquez" />
+</resources>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/sort_menu"
+        android:icon="@drawable/baseline_sort_by_alpha_24"
+        android:title="Ordenar"
+        app:showAsAction="always"
+        app:iconTint="@color/white">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/sort_by_code_asc"
+                    android:title="Código (0-9)"
+                    android:checked="false"/>
+                <item
+                    android:id="@+id/sort_by_code_desc"
+                    android:title="Código (9-0)"
+                    android:checked="false"/>
+                <item
+                    android:id="@+id/sort_by_lastname_asc"
+                    android:title="Apellidos (A-Z)"
+                    android:checked="false"/>
+                <item
+                    android:id="@+id/sort_by_lastname_desc"
+                    android:title="Apellidos (Z-A)"
+                    android:checked="false"/>
+            </group>
+        </menu>
+    </item>
+</menu>

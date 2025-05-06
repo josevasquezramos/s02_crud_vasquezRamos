@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".UpdateStudentActivity">
+
+    <TextView
+        android:id="@+id/editStudentHeading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/poppins"
+        android:text="Editar Alumno"
+        android:textColor="@color/uns"
+        android:textSize="24sp" />
+
+    <ImageView
+        android:id="@+id/updateSaveButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/baseline_save_24"
+        app:tint="@color/uns"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@id/editStudentHeading"
+        android:padding="8dp"/>
+
+    <EditText
+        android:id="@+id/updateCodigoEditText"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:fontFamily="@font/poppins"
+        android:hint="Ingresar código de alumno"
+        android:padding="12dp"
+        android:textSize="15sp"
+        android:layout_below="@id/editStudentHeading"
+        android:background="@drawable/uns_border"
+        android:layout_marginTop="16dp"
+        android:drawableStart="@drawable/baseline_badge_24"
+        android:drawableTint="#7A7A7A"
+        android:drawablePadding="8dp"
+        android:paddingStart="16dp"/>
+
+    <EditText
+        android:id="@+id/updateApellidosEditText"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:fontFamily="@font/poppins"
+        android:hint="Ingresar apellidos"
+        android:padding="12dp"
+        android:textSize="15sp"
+        android:layout_below="@id/updateCodigoEditText"
+        android:background="@drawable/uns_border"
+        android:layout_marginTop="16dp"
+        android:drawableStart="@drawable/baseline_person_24"
+        android:drawableTint="#7A7A7A"
+        android:drawablePadding="8dp"
+        android:paddingStart="16dp"/>
+
+    <EditText
+        android:id="@+id/updateNombresEditText"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:fontFamily="@font/poppins"
+        android:hint="Ingresar nombres"
+        android:padding="12dp"
+        android:textSize="15sp"
+        android:layout_below="@id/updateApellidosEditText"
+        android:background="@drawable/uns_border"
+        android:layout_marginTop="16dp"
+        android:drawableStart="@drawable/baseline_face_24"
+        android:drawableTint="#7A7A7A"
+        android:drawablePadding="8dp"
+        android:paddingStart="16dp"/>
+
+    <EditText
+        android:id="@+id/updateCorreoEditText"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:fontFamily="@font/poppins"
+        android:hint="Ingresar correo institucional"
+        android:padding="12dp"
+        android:textSize="15sp"
+        android:layout_below="@id/updateNombresEditText"
+        android:background="@drawable/uns_border"
+        android:layout_marginTop="16dp"
+        android:drawableStart="@drawable/baseline_alternate_email_24"
+        android:drawableTint="#7A7A7A"
+        android:drawablePadding="8dp"
+        android:paddingStart="16dp"/>
+
+</RelativeLayout>
