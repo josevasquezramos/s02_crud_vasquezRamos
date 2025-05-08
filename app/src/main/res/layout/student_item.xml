@@ -25,7 +25,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="0000000000"
-                android:fontFamily="@font/poppins"
+                android:fontFamily="@font/helvetica_neue_medium"
                 android:textColor="@color/uns"
                 android:textSize="18sp"
                 android:textStyle="bold"/>
@@ -68,13 +68,15 @@
                     android:layout_height="wrap_content"
                     android:text="Apellidos: "
                     android:textStyle="bold"
-                    android:minWidth="80dp"/>
+                    android:minWidth="80dp"
+                    android:fontFamily="@font/helvetica_neue_light"/>
 
                 <TextView
                     android:id="@+id/apellidosTextView"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="APELLIDOS"/>
+                    android:text="APELLIDOS"
+                    android:fontFamily="@font/helvetica_neue_bold"/>
             </LinearLayout>
 
             <!-- Nombres -->
@@ -89,13 +91,15 @@
                     android:layout_height="wrap_content"
                     android:text="Nombres: "
                     android:textStyle="bold"
-                    android:minWidth="80dp"/>
+                    android:minWidth="80dp"
+                    android:fontFamily="@font/helvetica_neue_light"/>
 
                 <TextView
                     android:id="@+id/nombresTextView"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="NOMBRES"/>
+                    android:text="NOMBRES"
+                    android:fontFamily="@font/helvetica_neue_bold"/>
             </LinearLayout>
 
             <!-- Correo -->
@@ -110,14 +114,16 @@
                     android:layout_height="wrap_content"
                     android:text="Correo: "
                     android:textStyle="bold"
-                    android:minWidth="80dp"/>
+                    android:minWidth="80dp"
+                    android:fontFamily="@font/helvetica_neue_light"/>
 
                 <TextView
                     android:id="@+id/correoTextView"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="000000000@uns.edu.pe"
-                    android:autoLink="email"/>
+                    android:autoLink="email"
+                    android:fontFamily="@font/helvetica_neue_bold"/>
             </LinearLayout>
 
         </LinearLayout>
