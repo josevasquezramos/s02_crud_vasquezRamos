@@ -16,3 +16,8 @@ Funcionalidades principales:
 - Visualización de la lista de alumnos registrados.
 - Edición y eliminación de registros existentes.
 - Ordenamiento de la lista de alumnos por código o apellido, en orden ascendente o descendente.
+
+___
+
+**Alumno:** Jose Manuel Vasquez Ramos  
+**Asignatura:** Aplicaciones Móviles
