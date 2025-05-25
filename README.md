@@ -2,7 +2,8 @@
 
 <p align="center">
   <a href="https://developer.android.com/"><img src="https://img.shields.io/badge/Android-35-brightgreen?logo=android" alt="Android SDK"></a>
-  <a href="https://kotlinlang.org/"><img src="https://img.shields.io/badge/Kotlin-1.9.20-7F52FF?logo=kotlin&logoColor=white" alt="Kotlin"></a>
+  <a href="https://developer.android.com/jetpack/compose"><img src="https://img.shields.io/badge/minSdk-24-yellow" alt="minSdk 24"></a>
+  <a href="https://kotlinlang.org/"><img src="https://img.shields.io/badge/Kotlin-1.9.24-7F52FF?logo=kotlin&logoColor=white" alt="Kotlin"></a>
   <a href="https://www.java.com/"><img src="https://img.shields.io/badge/Java-11-%23ED8B00?logo=openjdk&logoColor=white" alt="Java 11"></a>
   <a href="https://sqlite.org/"><img src="https://img.shields.io/badge/SQLite-✓-darkcyan?logo=sqlite&logoColor=white" alt="SQLite"></a>
   <a href="https://developer.android.com/topic/libraries/view-binding"><img src="https://img.shields.io/badge/ViewBinding-✓-orange" alt="ViewBinding"></a>
