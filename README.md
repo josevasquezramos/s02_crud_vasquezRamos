@@ -18,6 +18,8 @@ Funcionalidades principales:
 - Edición y eliminación de registros existentes.
 - Ordenamiento de la lista de alumnos por código o apellido, en orden ascendente o descendente.
 
+https://github.com/user-attachments/assets/f5a7f309-3235-42b7-b475-42667e436d51
+
 ___
 
 **Alumno:** Jose Manuel Vasquez Ramos  
